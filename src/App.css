@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  background-color: #CBEAA6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.flipped {
+  background-color: #F3F9D2;
+}
+
+.matched {
+  background-color:#585B56;
+  cursor: default;
+}
+
+.message {
+  font-size: 24px;
+  color: #66bb6a;
+  margin-top: 20px;
+}
+
